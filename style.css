@@ -1,0 +1,81 @@
+/* Outermost Container */
+div{                          
+	border: 10px solid;
+	padding: 7px;
+	margin: 65px;
+	background: #C8C8C8
+
+}
+
+#header{											
+	font-weight: bold;
+	font-size: 16px;
+}
+/* Large textarea with capacity of input*/
+textarea{											
+	width: 77%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+/* input type styling */
+input[type=text].a1 {					
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+/*input type styling*/
+input[type=text].a2 {					
+  width: 53.5%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+/*text background and its color*/
+#back{												
+	background-color: black; 
+	color: white;
+}
+/* solid border */
+p.solid{											
+	border:2px solid;
+}
+/*outset border*/
+p.outset{											
+		border-style: outset;
+}
+/* image element selector*/
+img{													
+	border-radius: 30%;
+	width: 120px;
+	position: absolute;
+	top: 85px;
+  right: 95px;
+  font-size: 18px;
+	border: solid darkred;
+}
+/* button element selector*/
+button{												
+	height: 50px;
+	width: 90px;
+	background-color: green;
+}
+/* button with darkred background */
+button.b1{										
+	background-color: darkred;
+	height: 50px;
+	width: 90px;
+}
+
+
+
+
